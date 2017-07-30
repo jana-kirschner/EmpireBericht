@@ -55,15 +55,9 @@ Mention and cite related studies in this area.
 
 \section[jk]{Methode}\label{sec:methode}
 
-Description of the most important considerations for the
-questionnaire's design (incl. discussion of problems):
-Formulation and order of questions, scale types, relevance as to the
-hypotheses.
-Short description of the recruitment method for participants,
-including a characterization of your target group.
-
-\lipsum[4]
-
+Zur Beantwortung unserer oben gestellten Forschungsfrage (\glqq Gibt es Unterschiede im Bild des Informatikers zwischen älteren und jüngeren Altersgruppen? \grqq) ist es nötig bekannte Vorurteile zu finden. Dafür haben wir uns an verwandten Arbeiten aus Kapitel \ref{sec:verwandteArbeiten} orientiert und beschränken uns auf die unserer Meinung nach wichtigsten neun um die Umfrage kurz halten zu können. Den Einstieg in unsere Umfrage bilden zwei offene Fragen, um die persönliche Haltung des/der Teilnehmers/Teilnehmerin unbeeinflusst analysieren zu können. Hier interessiert uns wie sich der/die Teilnehmer/in eine/n typische/n InformatikerIn vorstellt und welche beruflichen Tätigkeiten diese/r ausübt. Im folgenden Verlauf des Fragebogens soll der/die TeilnehmerIn einschätzen wie hoch der Frauenanteil unter allen Informatiker/innen ist und wie stark Informatikerinnen im Bereich der ausgewählten Vorurteile von der durchschnittlichen Gesellschaft abweichen. Den Schluss bilden demografische Fragen. \\
+Besondere Schwierigkeiten im Design der Umfrage traten vor allem in der Auswahl, Reihenfolge und Skalen der Fragen auf. Besonders wichtig war uns der offene Einstieg in unsere Umfrage. Hiermit erhoffen wir uns weitere Vorurteile feststellen zu können und zu erfahren wie stark das persönliche Bild des Berufsalltags eines/einer InformatikerIn von der Realität abweicht. Problematisch schienen zu Beginn auch die Skalen der Fragen zu den Vorurteilen. Hier müssen die Teilnehmer entscheiden wie stark ein Vorurteil zutrifft. Wir haben uns ganz bewusst für eine Ordinalskala mit einer einer mittleren Antwortmöglichkeit entschieden. Diese mittlere Antwort bedeutet, dass die InformatikerInnen in diesem Bereich genau im Durchschnitt der Gesellschaft liegen und das Vorurteil somit nicht zutrifft. Ein weitere wichtiger Bestandteil unserer Umfrage ist die Frage, welchen Kontakt der/die TeilnehmerIn mit InformatikerInnen hat. Hiermit möchten wir in der Analyse der Daten Antworten von InformatikerInnen aussortieren bzw. gesondert betrachten. \\
+Unsere Zielgruppe bilden Personen verschiedener Altersgruppen. Dabei spielt das soziale und berufliche Umfeld, das Geschlecht und der Bildungsstand nur eine untergeordnete Rolle. Mit der Gestaltung von individuellen Anschreiben wollten wir eine möglichst hohe Motivation unserer Teilnehmer erreichen. Denn uns ist bewusst, dass die Formulierung für jugendliche Teilnehmer eine andere sein sollte, als für Teilnehmer im Altersbereich ab 30 Jahren. Ein Beispielhaftes Anschreiben für StudentInnen ist im Anhang zu finden. Die Verteilung dieser Anschreiben erfolgte sowohl über Facebook, als auch über diverse Mailverteiler der Universität. Da wir mit diesen Kanälen jedoch nur eine bestimmte Altersgruppe erreichen können, entschieden wir uns dafür über persönliche Kontakte und Mundpropaganda noch weitere Teilnehmer zu kontaktieren.
 
 \section[pb]{Datenanalyse \& Resultate} \label{sec:analyse}
 
