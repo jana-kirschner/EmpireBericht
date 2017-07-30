@@ -7,15 +7,15 @@
 
 % Load R code
 <<echo=FALSE, cache=FALSE>>=
-read_chunk('demo.r')
+read_chunk('analysis.r')
 @
 
 \begin{document}
 
 \title{Die Wahrnehmung der Informatiker in der modernen Gesellschaft}
 \author{
-    \authorName{Sarah}
-    \authorMail{Sarah}
+    \authorName{Sarah L\"oser}
+    \authorMail{loeser.sarah@fu-berlin.de}
     \and
     \authorName{Alex}
     \authorMail{Alex}
@@ -31,7 +31,6 @@ read_chunk('demo.r')
 @
 
 \begin{abstract}
-    \lipsum[1]
     Insgesamt haben an der Studie \Sexpr{total.participants()} Personen
     aus \Sexpr{total.countries()} Ländern teilgenommen.
 \end{abstract}
@@ -49,9 +48,6 @@ Im Weiteren werden wir näher auf verwandte Arbeiten eingehen (Kapitel \ref{sec:
 Discussion of other possible research questions and other possible
 empirical methods for this area of interest.
 Mention and cite related studies in this area.
-
-\lipsum[3]
-
 
 \section[jk]{Methode}\label{sec:methode}
 
@@ -73,15 +69,10 @@ Description of the considerations and the results of your search for
 scientific statements and correlations; possibly with quantitative
 results and/or graphic visualizations.
 
-\lipsum[5]
-
-
 \subsection{Dieses}
-\lipsum[6]
 
 
 \subsection[mds]{Jenes}
-\lipsum[7-8]
 
 
 \section[hs]{Schlussfolgerungen} \label{sec:schlussfolgerung}
@@ -91,7 +82,6 @@ If answering your research question is not possible, discuss why.
 Discussion of the threats to validity and the survey's
 shortcomings as well as evaluation of credibility and relevance.
 
-\lipsum[9-10]
 
 
 \section[kk]{Reflektion} \label{sec:reflektion}
@@ -110,20 +100,6 @@ Evaluate your approach in view of the general approach for
 empiricism (see
 \url{http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2017/11_generic_method.pdf}).
 
-\lipsum[11-13]
-
-\begin{figure}
-    <<simple-plot, echo=FALSE,fig.width=4,fig.asp=.7,out.width="\\linewidth">>=
-    @
-    \caption{Ein kleiner R-Plot}
-\end{figure}
-
-\begin{table}
-    \centering
-    <<simple-table, echo=FALSE>>=
-    @
-    \caption{Eine kleine Tabelle}
-\end{table}
 
 % For printing all bib entries; remove to only print actually cited entries
 \nocite{*}
