@@ -1,0 +1,174 @@
+\documentclass[de]{agse-empir-report}
+
+% Blind texts, for demonstration only, not part of the actual template
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\parindent0pt
+
+% Load R code
+<<echo=FALSE, cache=FALSE>>=
+read_chunk('demo.r')
+@
+
+\begin{document}
+
+\title{Die Wahrnehmung der Informatiker in der modernen Gesellschaft}
+\author{
+    \authorName{Sarah}
+    \authorMail{Sarah}
+    \and
+    \authorName{Alex}
+    \authorMail{Alex}
+    \and
+    \authorName{Jana Kirschner}
+    \authorMail{Jana}
+}
+
+\maketitle
+
+% Load R chunk
+<<demographics, echo=FALSE>>=
+@
+
+\begin{abstract}
+    \lipsum[1]
+    Insgesamt haben an der Studie \Sexpr{total.participants()} Personen
+    aus \Sexpr{total.countries()} Ländern teilgenommen.
+\end{abstract}
+
+
+\section[fz]{Einführung}
+
+Im Rahmen eines Kurses an der Freien Universität in Berlin haben wir uns mit Vorurteilen gegenüber Informatiker/innen beschäftigt.
+
+
+Explanation of the context.
+Research question: description, justification of relevance,
+and motivation.
+State and explain your hypotheses.
+Give an overview of the structure of the rest of the article.
+
+
+\section[kk]{Verwandte Arbeiten}
+
+Discussion of other possible research questions and other possible
+empirical methods for this area of interest.
+Mention and cite related studies in this area.
+
+\lipsum[3]
+
+
+\section[jk]{Methode}
+
+Description of the most important considerations for the
+questionnaire's design (incl. discussion of problems):
+Formulation and order of questions, scale types, relevance as to the
+hypotheses.
+Short description of the recruitment method for participants,
+including a characterization of your target group.
+
+\lipsum[4]
+
+
+\section[pb]{Datenanalyse \& Resultate}
+
+\begin{figure*}
+    \includegraphics[width=\linewidth]{creative_commons.jpg}
+    \caption{Das Creative-Commons-Logo als breite Grafik}
+\end{figure*}
+
+Number and characterization of respondents.
+Description of the approach for the data validation and
+analysis, short explanation of important scripts you used.
+Description of the considerations and the results of your search for
+scientific statements and correlations; possibly with quantitative
+results and/or graphic visualizations.
+
+\lipsum[5]
+
+
+\subsection{Dieses}
+\lipsum[6]
+
+
+\subsection[mds]{Jenes}
+\lipsum[7-8]
+
+
+\section[hs]{Schlussfolgerungen}
+Summary of the most important insights from the analysis and
+answer to the research question with respect to your hypotheses.
+If answering your research question is not possible, discuss why.
+Discussion of the threats to validity and the survey's
+shortcomings as well as evaluation of credibility and relevance.
+
+\lipsum[9-10]
+
+
+\section[kk]{Reflektion}
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{creative_commons.jpg}
+    \caption{Das Creative-Commons-Logo als Spaltengrafik}
+\end{figure}
+
+What did you learn from (or became aware of during) this project with
+respect to: choice and formulation of a research question,
+drafting and implementation of a questionnaire,
+recruitment of participants,
+data collection, evaluation, and drawing of conclusions?
+Evaluate your approach in view of the general approach for
+empiricism (see
+\url{http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2017/11_generic_method.pdf}).
+
+\lipsum[11-13]
+
+\begin{figure}
+    <<simple-plot, echo=FALSE,fig.width=4,fig.asp=.7,out.width="\\linewidth">>=
+    @
+    \caption{Ein kleiner R-Plot}
+\end{figure}
+
+\begin{table}
+    \centering
+    <<simple-table, echo=FALSE>>=
+    @
+    \caption{Eine kleine Tabelle}
+\end{table}
+
+% For printing all bib entries; remove to only print actually cited entries
+\nocite{*}
+
+\bibliography{sample}
+
+
+\appendix
+
+\section{Anschreiben}
+
+Liebe StudentInnen,\\
+im Rahmen des Kurses “Empirische Bewertung in der Informatik” an der Freien Universität Berlin führen wir eine Studie zum Thema “Wahrnehmung der InformatikerInnen in der Gesellschaft” durch. Mit dieser Umfrage wollen wir herausfinden, ob es zwischen verschiedenen Generationen eine unterschiedliche Wahrnehmung gegenüber Informatikern gibt. Wir suchen dafür interessierte Teilnehmer und Teilnehmerinnen. Der zeitliche Aufwand beträgt maximal 10 Minuten.\\
+Die Umfrage ist selbstverständlich anonym. Der Umfragezeitraum endet am 29.06.2017.\\
+
+Die Umfrage finden ihr  unter https://goo.gl/forms/FRzYsoV646aLGHBc2 \\
+
+Wenn ihr an den Ergebnissen der Umfrage interessiert seid, schreiben uns eine E-Mail an jana.kirschner@fu-berlin.de und wir senden euch die Ergebnisse, sobald sie uns vorliegen.\\ \\
+
+Mit freundlichen Grüßen\\
+und vielen Dank für eure Teilnahme\\ 
+das Team der Freien Universität Berlin\\
+
+
+
+\section{Fragebogen}
+
+...
+
+
+\section{Rohdaten und Auswertungskripte}
+
+URL zum Download der Rohdaten und der R-Analyseskripte, die sich direkt auf den
+Rohdaten ausführen lassen.
+Idealerweise ein Git-Repository.
+
+\end{document}
