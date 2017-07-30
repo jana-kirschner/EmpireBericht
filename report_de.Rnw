@@ -2,6 +2,7 @@
 
 % Blind texts, for demonstration only, not part of the actual template
 \usepackage{lipsum}
+\usepackage[utf8]{inputenc}
 
 % Load R code
 <<echo=FALSE, cache=FALSE>>=
@@ -10,23 +11,16 @@ read_chunk('demo.r')
 
 \begin{document}
 
-\title{Inhaltlich sinnfreier, aber demonstrativer Titel für die
-    \LaTeX-Vorlage: Ein Beispieldokument}
+\title{Die Wahrnehmung der Informatiker in der modernen Gesellschaft}
 \author{
-    \authorName{Franz Zieris}
-    \authorMail{zieris@inf.fu-berlin.de}
+    \authorName{Sarah}
+    \authorMail{Sarah}
     \and
-    \authorName{Hugo Schupps}
-    \authorMail{schlupps@example.org}
+    \authorName{Alex}
+    \authorMail{Alex}
     \and
-    \authorName{Peter Bunse}
-    \authorMail{bunsen@brenner.com}
-    \and
-    \authorName{Karla Kolumna}
-    \authorMail{presse@aol.de}
-    \and
-    \authorName{Margot Delia Schröter}
-    \authorMail{m.d.schroeter@t-online.de}
+    \authorName{Jana Kirschner}
+    \authorMail{Jana}
 }
 
 \maketitle
@@ -43,6 +37,9 @@ read_chunk('demo.r')
 
 
 \section[fz]{Einführung}
+
+Im Rahmen eines Kurses an der Freien Universität in Berlin haben wir uns mit Vorurteilen gegenüber Informatiker/innen beschäftigt.
+
 
 Explanation of the context.
 Research question: description, justification of relevance,
@@ -62,7 +59,7 @@ Mention and cite related studies in this area.
 \lipsum[3]
 
 
-\section[hs]{Methode}
+\section[jk]{Methode}
 
 Description of the most important considerations for the
 questionnaire's design (incl. discussion of problems):
