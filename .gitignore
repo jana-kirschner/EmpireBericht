@@ -9,3 +9,7 @@ report_de.Rnw.rej
 *.log
 *.out
 *.gz
+*.bbl
+*.blg
+*.bak
+*.sav

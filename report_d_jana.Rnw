@@ -37,19 +37,15 @@ read_chunk('demo.r')
 \end{abstract}
 
 
-\section[fz]{Einführung}
+\section[jk]{Einführung}
 
-Im Rahmen eines Kurses an der Freien Universität in Berlin haben wir uns mit Vorurteilen gegenüber Informatiker/innen beschäftigt.
-
-
-Explanation of the context.
-Research question: description, justification of relevance,
-and motivation.
-State and explain your hypotheses.
-Give an overview of the structure of the rest of the article.
+Im Rahmen eines Kurses an der Freien Universität in Berlin haben wir uns Vorurteilen gegenüber InformatikerInnen beschäftigt. Sowohl während unseres Informatikstudiums, als auch durch öffentliche Werbung, welche sich Vorurteile zu Nutze macht, werden wir häufig mit diesen konfrontiert.
+Um diesem Phänomen nachzugehen haben wir eine Umfrage durchgeführt, deren Ziel es war herauszufinden, ob es Unterschiede in der Wahrnehmung der InformatikerInnen zwischen älteren und jüngeren Altersgruppen gibt. Es lässt sich vermuten, dass dies zutrifft, da die Informatik durch den digitalen Wandel, einen immer höheren Stellenwert in der Gesellschaft einnimmt.\\
+Um interessante Vorurteile zu finden, haben wir uns an Werbeslogens, wie dem der Bundeswehr, in dem es heißt \glqq Jetzt suchen wir nicht mehr nur Sportskanonen, wir suchen inzwischen händeringend Nerds \grqq \cite{Bundeswehr} und an anderen Studien (siehe \ref{sec:verwandteArbeiten}) orientiert. \\
+Im Weiteren werden wir näher auf verwandte Arbeiten eingehen (Kapitel \ref{sec:verwandteArbeiten}), die Methoden welche wir in unserer Umfrage benutzt haben (Kapitel \ref{sec:methoden}), die Analyse der Daten (Kapitel \ref{sec:analyse}) und die Schlussfolgerung aus diesen (Kapitel \ref{sec:schlussfolgerung}). Schließlich wird eine Reflektion unserer Arbeit in Kapitel \ref{sec:reflektion} zu finden sein.
 
 
-\section[kk]{Verwandte Arbeiten}
+\section[kk]{Verwandte Arbeiten} \label{sec:verwandteArbeiten}
 
 Discussion of other possible research questions and other possible
 empirical methods for this area of interest.
@@ -58,7 +54,7 @@ Mention and cite related studies in this area.
 \lipsum[3]
 
 
-\section[jk]{Methode}
+\section[jk]{Methode} \label{sec:methoden}
 
 Description of the most important considerations for the
 questionnaire's design (incl. discussion of problems):
@@ -70,7 +66,7 @@ including a characterization of your target group.
 \lipsum[4]
 
 
-\section[pb]{Datenanalyse \& Resultate}
+\section[pb]{Datenanalyse \& Resultate} \label{analyse}
 
 \begin{figure*}
     \includegraphics[width=\linewidth]{creative_commons.jpg}
@@ -95,7 +91,7 @@ results and/or graphic visualizations.
 \lipsum[7-8]
 
 
-\section[hs]{Schlussfolgerungen}
+\section[hs]{Schlussfolgerungen} \label{schlusfolgerung}
 Summary of the most important insights from the analysis and
 answer to the research question with respect to your hypotheses.
 If answering your research question is not possible, discuss why.
@@ -105,7 +101,7 @@ shortcomings as well as evaluation of credibility and relevance.
 \lipsum[9-10]
 
 
-\section[kk]{Reflektion}
+\section[kk]{Reflektion} \label{reflektion}
 
 \begin{figure}
     \includegraphics[width=\linewidth]{creative_commons.jpg}
