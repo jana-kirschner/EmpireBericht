@@ -36,9 +36,7 @@ read_chunk('demo.r')
 @
 
 \begin{abstract}
-    \lipsum[1]
-    Insgesamt haben an der Studie \Sexpr{total.participants()} Personen
-    aus \Sexpr{total.countries()} Ländern teilgenommen.
+    \lipsum[1] Diese Studie hat sich mit dem Bild des Informatikers/In in der modernen Geselschaft beschäftigt um im genaueren die Frage zu beantworten, ob es Unterschiede im Bild des Informatikers zwischen älteren und jüngeren Altersgruppen gibt. Bei der Umfrage haben 66 Befragte teilgenommen, dabei viele Studierende. Es wurde anhand von aktuell vorherrschenden Vorurteilen über InformatikerInnen gefragt, wie sehr diesen zugestimmt wird. Hierbei wurde u.a. nach Sportlichkeit, Beziehungsstand, geschätzten Frauenanteil sowie mit InformatikerInnen assoziierte Tätigkeiten gefragt. Die Ergebnisse wurden anhand des Alters, des Geschlechts und der Art des Kontaktes zu InformatikerInnen analysiert. Hierbei wurde kein signifikanter Unterschied zwischen den Angaben der Geschlechter festgestellt. In den Altersgruppen ergaben sich Unterschiede in der Ansicht über den Beziehungsstand. Jüngere Teilnehmer (unter 40) tendierten zu der Vorstellung InformatikerInnen seien ledig, ältere Teilnehmer (über 40) im Gegensatz dazu InformatikerInnen seien in einer längeren Beziehung. Da diese Einschätzung aber auch mit den Ansichten der älteren bzw. jüngeren Generationen im allgemeinen etwas zu haben kann, konnte hier keine spezielle Aussage über das Bild von InformatikerInnen gemacht werden. 
 \end{abstract}
 
 
