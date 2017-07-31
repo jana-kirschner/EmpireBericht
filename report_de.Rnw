@@ -42,23 +42,21 @@ Um diesem Phänomen nachzugehen haben wir eine Umfrage durchgeführt, deren Ziel
 Um interessante Vorurteile zu finden, haben wir uns an Werbeslogens, wie dem der Bundeswehr, in dem es heißt \glqq Jetzt suchen wir nicht mehr nur Sportskanonen, wir suchen inzwischen händeringend Nerds \grqq \cite{Bundeswehr} und an anderen Studien (siehe Kapitel 2) orientiert. \\
 Im Weiteren werden wir näher auf verwandte Arbeiten eingehen (Kapitel 2), die Methoden welche wir in unserer Umfrage benutzt haben (Kapitel 3), die Analyse der Daten (Kapitel 4) und die Schlussfolgerung aus diesen (Kapitel 5). Schließlich wird eine Reflektion unserer Arbeit in Kapitel 6 zu finden sein.
 
-\section[]{Verwandte Arbeiten}\label{sec:verwandteArbeiten}
-
+\section[at]{Verwandte Arbeiten}
 Wir haben einige andere Arbeiten und Untersuchungen zu dem Thema gefunden und diese in unsere Untersuchung einfließen lassen. Eine Untersuchung der Uni Siegen hat verschiedene Vorstellungen über InformatikerInnen aufgedeckt \cite{Weber09}. Diese Vorurteile beziehen sich auf Geschlechterverteilung, Charakter, Aussehen sowie Sozialverhalten. So werden InformatikerInnen oft als Nerds bezeichnet, die sich sozial isolieren und eine starke Computer-Affinität aufweisen. Außerdem er gab die Untersuchung, dass Informatiker ein geringes Interesse außerhalb des Computers, z.B. Kultur und Sport, haben. 
 Es gibt einige Studien von Partnerbörsen. Bei einer wurden die Vorstellungen von Frauen über Informatiker untersucht \cite{partnersuche.de}. Dabei wurde nach Hobbys, Verhalten und Eigenschaften gefragt. So sei der Informatiker in den Augen von Frauen introvertiert, Computer(spiele)-affin und alleinstehend. Als Persönlichkeitsmerkmale von InformatikerInnen wurde Introversion und Pragmatismus festgestellt \cite{parship}.
 
 
 \section[jk]{Methode}
-\label{sec:methode}
 
 Zur Beantwortung unserer oben gestellten Forschungsfrage (\glqq Gibt es Unterschiede im Bild des Informatikers zwischen älteren und jüngeren Altersgruppen? \grqq) ist es nötig bekannte Vorurteile zu finden. Dafür orientierten wir uns an verwandten Arbeiten aus Kapitel \ref{sec:verwandteArbeiten}  und beschränkten uns auf die unserer Meinung nach wichtigsten neun um die Umfrage kurz halten zu können. Den Einstieg in unsere Umfrage bilden zwei offene Fragen, um die persönliche Haltung des/der Teilnehmers/Teilnehmerin unbeeinflusst analysieren zu können. Hier interessiert uns wie sich der/die Teilnehmer/in eine/n typische/n InformatikerIn vorstellt und welche beruflichen Tätigkeiten diese/r ausübt. Im folgenden Verlauf des Fragebogens soll der/die TeilnehmerIn einschätzen wie hoch der Frauenanteil unter allen Informatiker/innen ist und wie stark Informatikerinnen im Bereich der ausgewählten Vorurteile von der durchschnittlichen Gesellschaft abweichen. Den Schluss bilden demografische Fragen. \\
 Besondere Schwierigkeiten im Design der Umfrage traten vor allem in der Auswahl, Reihenfolge und Skalen der Fragen auf. Besonders wichtig war uns der offene Einstieg in unsere Umfrage. Hiermit erhoffen wir uns weitere Vorurteile feststellen zu können und zu erfahren wie stark das persönliche Bild des Berufsalltags eines/einer InformatikerIn von der Realität abweicht. Problematisch schienen zu Beginn auch die Skalen der Fragen zu den Vorurteilen. Hier müssen die Teilnehmer entscheiden wie stark ein Vorurteil zutrifft. Wir haben uns ganz bewusst für eine Ordinalskala mit einer einer mittleren Antwortmöglichkeit entschieden. Diese mittlere Antwort bedeutet, dass InformatikerInnen in diesem Bereich genau im Durchschnitt der Gesellschaft liegen und das Vorurteil somit nicht zutrifft. Ein weiterer wichtiger Bestandteil unserer Umfrage ist die Frage, welchen Kontakt der/die TeilnehmerIn mit InformatikerInnen hat. Hiermit möchten wir in der Analyse der Daten Antworten von InformatikerInnen aussortieren bzw. gesondert betrachten. \\
 Unsere Zielgruppe bilden Personen verschiedener Altersgruppen. Dabei spielt das soziale und berufliche Umfeld, das Geschlecht und der Bildungsstand nur eine untergeordnete Rolle. Mit der Gestaltung von individuellen Anschreiben wollten wir eine möglichst hohe Motivation unserer Teilnehmer erreichen. Denn uns ist bewusst, dass die Formulierung für jugendliche Teilnehmer eine andere sein sollte, als für TeilnehmerInnen im Altersbereich ab z.B. 30 Jahren. Ein Beispielhaftes Anschreiben für StudentInnen ist im Anhang zu finden. Die Verteilung dieser Anschreiben erfolgte sowohl über Facebook, als auch über diverse Mailverteiler der Universität. Da wir mit diesen Kanälen jedoch nur eine bestimmte Altersgruppe erreichen können, entschieden wir uns dafür über persönliche Kontakte und Mundpropaganda noch weitere Teilnehmer zu kontaktieren.
 
-\section[sl]{Datenanalyse \& Resultate} \label{sec:analyse}
+\section[sl]{Datenanalyse \& Resultate} 
 \Sexpr{knit_child('04_analysis_results.Rnw')}
 
-\section[]{Schlussfolgerungen} \label{sec:schlussfolgerung}
+\section[]{Schlussfolgerungen}
 Summary of the most important insights from the analysis and
 answer to the research question with respect to your hypotheses.
 If answering your research question is not possible, discuss why.
@@ -66,7 +64,7 @@ Discussion of the threats to validity and the survey's
 shortcomings as well as evaluation of credibility and relevance.
 
 
-\section[]{Reflektion} \label{sec:reflektion}
+\section[]{Reflektion}
 
 What did you learn from (or became aware of during) this project with
 respect to: choice and formulation of a research question,
