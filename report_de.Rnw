@@ -7,15 +7,15 @@
 
 % Load R code
 <<echo=FALSE, cache=FALSE>>=
-read_chunk('demo.r')
+read_chunk('analysis.r')
 @
 
 \begin{document}
 
 \title{Die Wahrnehmung der Informatiker in der modernen Gesellschaft}
 \author{
-    \authorName{Sarah}
-    \authorMail{Sarah}
+    \authorName{Sarah L\"oser}
+    \authorMail{loeser.sarah@fu-berlin.de}
     \and
     \authorName{Alex}
     \authorMail{Alex}
@@ -26,13 +26,9 @@ read_chunk('demo.r')
 
 \maketitle
 
-% Load R chunk
-<<demographics, echo=FALSE>>=
-@
 
 \begin{abstract}
-    Insgesamt haben an der Studie \Sexpr{total.participants()} Personen
-    aus \Sexpr{total.countries()} Ländern teilgenommen.
+    Insgesamt haben an der Studie ...
 \end{abstract}
 
 
