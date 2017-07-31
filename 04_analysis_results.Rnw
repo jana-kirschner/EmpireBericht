@@ -1,0 +1,68 @@
+%Hallo, hier ist ein extra teil, den ich einfüge.
+
+%Number and characterization of respondents.
+% Load R chunk
+<<demographics, echo=FALSE>>=
+@
+
+An unserer Umfrage nahmen insgesamt \Sexpr{total.participants()} ProbandInnen teil. Davon waren \Sexpr{total.male()} m\"annlich und \Sexpr{total.female()} weiblich, also eine recht gute Verteilung der Geschlechter. Mit der Altersverteilung verh\"alt es sich nicht so ausgeglichen, hier gehören \Sexpr{perc.young()} \% der ProbandInnen zur Altersgruppe \emph{unter 40}. Die Einteilung in die Altersgruppe wurde anhand der Antworten der ProbandInnen vorgenommen. So konnte bei etwa 40 Jahren ein leichter Wandel in den Einstellungen der ProbandInnen erkannt werden, welcher die Entscheidung f\"ur diese Unterteilung st\"utzt.
+
+Des weiteren wurden unsere ProbandInnen nach ihren Ber\"uhrungspunkten und Kontakten mit Informatikern eingeteilt. Diese Verteilung ist in Tabelle \ref{tab:contact} dargestellt. Etwa ein Drittel der ProbandInnen ist entweder selbst InformatikerIn oder hat InformatikerInnen als Eltern, Geschwister oder Lebenspartner. Knapp die H\"alfte der ProbandInnen hat zumindest im privaten Bekanntenkreis noch Kontakt zu InformatikerInnen. Der Rest hat entweder nur im beruflichen Umfeld oder gar keinen Kontakt.
+
+\begin{table}
+   \centering
+   <<table_contact, echo=FALSE>>=
+   @
+   \caption{Anzahl der ProbandInnen mit jeweiligen Ber\"uhrungspunkten zu InformatikerInnen}
+   \label{tab:contact}
+\end{table}
+
+%Description of the approach for the data validation and analysis, short explanation of important scripts you used.
+
+Da wir Zusammenh\"ange zu den Ansichten der ProbandInnen gegen\"uber InformatikerInnen bez\"uglich des Alters und Geschlechts der ProbandInnen vermuten, richten wir unsere Analyse daran aus. Wir rechnen zudem mit Unterschieden in der Wahrnehmung der ProbandInnen abh\"angig vom Kontakt mit Informatikern. Unsere Analysen betrachten daher die Antworth\"aufigkeiten von den ProbandInnen bez\"uglich der hier genannten drei Gruppierungen.
+
+Der Hauptteil der Skripte zur Auswertung wurde ben\"otigt, um die von google Forms erhaltenen Daten in eine verwendbare Form zu bringen. Dazu geh\"ort vor allem, die umst\"andlich langen Spaltennamen und Datenwerte umzubenennen, sowie diese an den entsprechenden Stellen als factors zu formatieren. Die Analyse der Freitextfelder erfolgte manuell, indem zun\"achst die einzelnen Antworten zu Kategorien zusammengefasst wurden, welche anschlie{\ss}end von Hand zu den Daten erg\"anzt wurden.
+
+%Description of the considerations and the results of your search for scientific statements and correlations; possibly with quantitative results and/or graphic visualizations.
+
+Im Verlauf der Analyse stellten wir fest, dass es deutlich weniger Unterschiede in der Meinung \"uber InformatikerInnen bez\"uglich des Geschlechts gab als angenommen. In unserer Stichprobe konnten daf\"ur keine signifikanten Unterschiede festgestellt werden.
+
+Eine m\"ogliche Ursache vermuten wir darin, dass unsere ProbandInnen sich offenbar gut etwas unter dem Begriff InformatikerIn vorstellen k\"onnen. Diese Annahme erscheint sinnvoll, wenn man die Antworten auf die Frage nach drei vermuteten T\"atigkeiten von Informatikern betrachtet. Die h\"aufigsten Antworten nach Kategorien sind in Abbildung \ref{fig:jobs} dargestellt. Dabei wird sofort deutlich, dass dreiviertel aller ProbandInnen den Informatikern T\"atigkeiten aus dem Bereich des Programmierens zuordnen. Mit Entwicklung, Support und den folgenden Angaben treffen die ProbandInnen die Wirklichkeit erstaunlich genau. Die Kategorie sonstiges gibt die Anzahl anderer Antworten an, die zumeist nur von ein oder zwei ProbandInnen angegeben wurden. Dies k\"onnte einer der Gr\"unde sein, weshalb wir in unserer Umfrage wenig klassische Vorurteile bekommen haben und allgemein eine Tendenz zur Mitte festzustellen ist.
+
+\begin{figure}
+    <<chart_jobs, echo=FALSE,out.width="\\linewidth">>=
+    @
+    \caption{Aufgaben von InformatikerInnen nach Bekanntheitsgrad der ProbandInnen mit diesen}
+    \label{fig:jobs}
+\end{figure}
+
+Bez\"uglich des Alters konnten einige Unterschiede in den Antworten der ProbandInnen festgestellt werden. So sch\"atzen ProbandInnen der \"alteren Generation von \"uber 40 die mit Computerspielen verbrachte Zeit von Informatikern deutlich geringer ein, wie in Abbildung \ref{fig:games_alter} zu sehen. Im linken Graphen der \"alteren ProbandInnen liegt der Modus der Antworten bei \emph{gelegentlichem} Computerspielen, also seltener als w\"ochentlich. Im Gegensatz dazu antworten bei den j\"ungeren ProbandInnen zwei Drittel mit einer gesch\"atzten H\"aufigkeit von mehreren Stunden Computerspiele in der Woche.  
+
+\begin{figure}
+    <<chart_age-games, echo=FALSE,out.width="\\linewidth">>=
+    @
+    \caption{Gesch\"atzte mit Computerspielen verbrachte Zeit in Abh\"angigkeit vom Alter der ProbandInnen}
+    \label{fig:games_alter}
+\end{figure}
+
+Unterschiede finden sich auch darin, wie die ProbandInnen den Beziehungsstand von InformatikerInnen einschätzen. Eine Gegen\"uberstellung ist in Abbildung \ref{fig:beziehung_alter} zu sehen. ProbandInnen des \"alteren Semesters vermuten eher, dass sich die meisten InformatikerInnen in einer Beziehung oder sogar in einer langj\"ahrigen Beziehung befinden. Von den unter 40-j\"ahrigen sch\"atzen etwa zwei F\"unftel der ProbandInnen die meisten InformatikerInnen als ledig ein.
+
+\begin{figure}
+    <<chart_age-beziehung, echo=FALSE,out.width="\\linewidth">>=
+    @
+    \caption{Gesch\"atzter Beziehungsstand in Abh\"angigkeit vom Alter der ProbandInnen}
+    \label{fig:beziehung_alter}
+\end{figure}
+
+Anhand der von uns erhobenen Daten kann nicht eingesch\"atzt werden, in wie weit diese generationsspezifischen Unterschiede in der Wahrnehmung von InformatikerInnen sich auf eben diese beschr\"anken, oder allgemein f\"ur die Wahrnehmung der gesamten Bev\"olkerung stehen.
+
+F\"ur die Unterschiede k\"onnten zudem verschiedene Wertvorstellungen unbewusst verantwortlich sein. So wird beispielsweise die Familienplanung heutzutage h\"aufig hinter die Karriere zur\"uckgestellt. Zudem ist das Computerspielen inzwischen auch bei nicht InformatikerInnen weit verbreitet, die dann ebenfalls mehr Zeit damit verbringen.
+
+Ein weiterer interessanter Punkt in unserer Analyse ist die gesch\"atzte Frauenquote bei den InformatikerInnen (vgl. Abbildung \ref{fig:frauenquote}). Kein einzige Proband hat den Anteil der Frauen in der Informatik h\"oher als 40 \% eingesch\"atzt. Die breite Streuung liegt vermutlich stark an den jeweiligen pers\"onlichen Erfahrungen. Zum Vergleich waren an der FU Berlin im Wintersemester 16/17 im Bachelorstudium etwa 20 \% und im Masterstudium rund 10 \% Frauen im Studium Informatik eingeschrieben.  Auffallend an dieser Analyse ist die sehr geringe Streuung bei Probanden mit nur beruflichem Kontakt zu Informatikern. Zwar nimmt der Anteil weiblicher Studierender in der Informatik in letzter Zeit stark zu, jedoch sind diese wohl zum Gro{\ss}teil entweder noch nicht im Berufsleben angekommen, oder sie arbeiten aufgrund des h\"oheren Abschlusses eher an Projekten und weniger im Supportbereich, der ja doch am meisten Kontakt mit anderen Mitarbeitern bietet.
+
+\begin{figure}
+    <<chart_quote, echo=FALSE,out.width="\\linewidth">>=
+    @
+    \caption{Gesch\"atzter Frauenquote in Abh\"angigkeit vom Kontakt mit InformatikerInnen}
+    \label{fig:frauenquote}
+\end{figure}
