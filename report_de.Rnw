@@ -21,7 +21,7 @@ read_chunk('analysis.r')
     \authorMail{loeser.sarah@fu-berlin.de}
     \and
     \authorName{Alex}
-    \authorMail{Alex}
+    \authorMail{alexander.timme@fu-berlin.de}
     \and
     \authorName{Jana Kirschner}
     \authorMail{jana.kirschner@fu-berlin.de}
