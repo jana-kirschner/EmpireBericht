@@ -1,6 +1,6 @@
 
 ## ---- demographics
-X <- read.table(file = "results_one_answer.csv", header = TRUE, sep = ";");
+X <- read.table(file = "results.csv", header = TRUE, sep = ";");
 X$Gender <- sapply(X[,16], function(x) if(x=="weiblich") {"w"} else {"m"});
 X$Alter <- as.factor(sapply(X$"Wie.alt.sind.Sie.", function(x) if(x<40){"unter 40"} else {"über 40"}));
 X$Kontakt <- factor(as.factor(sapply(X[,18], function(x)
@@ -30,7 +30,7 @@ total.young = function() {
 
 perc.young = function() {
 	age <- X[X$Alter=="unter 40",]
-	round(dim(age)[1]/dim(X)[1],2)
+	round(dim(age)[1]/dim(X)[1],2)*100
 }
 
 total.female = function() {
